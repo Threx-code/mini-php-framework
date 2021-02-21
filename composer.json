@@ -1,0 +1,25 @@
+{
+    "name": "skopos/framework",
+    "description": "This is a simple framework to start your project",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Oluwatosin Amokeodo",
+            "email": "oluwatosin.amokeodo@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+       "illuminate/database": "^7.25"
+    },
+    "autoload":{
+        "psr-4":{
+            "App\\": "app/",
+            "View\\": "app/views",
+            "Model\\": "app/models",
+            "Kernel\\": "app/kernels",
+            "Controller\\": "app/controllers"
+        }
+    }
+}
